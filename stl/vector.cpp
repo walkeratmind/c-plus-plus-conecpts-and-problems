@@ -14,25 +14,26 @@ using namespace std;
 
 int main()
 {
-    vector<string> names;
+  vector<string> names;
 
-    names.push_back("Harihar");
-    names.push_back("Binod");
-    names.push_back("Raman");
-    names.push_back("Shyam Prashad");
-    names.push_back("Rita");
+  names.push_back("Harihar");
+  names.push_back("Binod");
+  names.push_back("Raman");
+  names.push_back("Shyam Prashad");
+  names.push_back("Rita");
 
-    int i = 0;
-    for (vector<string>::iterator itr = names.begin(); itr != names.end(); itr++)
-    {
+  int i = 0;
+  for (vector<string>::iterator itr = names.begin(); itr != names.end(); itr++)
+  {
 
-        cout << *itr << endl;
+    cout << *itr << endl;
 
-        // OR
-        cout << "Name:" << *(names.data() + i++) << endl;
-    }
+    // OR
+    cout << "Name:" << *(names.data() + i++) << endl;
+  }
 
-    cout << "--------------" << endl;
-    cout << *names.crbegin() << endl;
-    return 0;
+  cout << "--------------" << endl;
+  cout << *names.crbegin() << endl;
+
+  return 0;
 }

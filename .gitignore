@@ -1,4 +1,6 @@
 
+
+/build/*
 # Prerequisites
 *.d
 # Compiled Object files
@@ -24,16 +26,3 @@
 # Executables
 *.exe
 *.out
-*.appclasses/Rectangle
-problem-solving/array-reverse
-problem-solving/pallindrome
-problem-solving/arrays/max consecutive ones
-problem-solving/arrays/numbers_with_even_num_digit
-problem-solving/arrays/max_consecutive_ones
-pointers/intro
-pointers/pointer_array
-stl/dequeue
-stl/list
-stl/vector
-stl/set
-stl/function_object

@@ -1,6 +1,10 @@
 # LeetCode Problems
 
-## Array
+## Contents
+
+[TOC]
+
+## Arrays
 
 ### 1. Max Consecutive Ones
 
@@ -19,8 +23,6 @@ Explanation: The first two digits or the last three digits are consecutive 1s.
 
 - The input array will only contain `0` and `1`.
 - The length of input array is a positive integer and will not exceed 10,000
-
-[**Solution**]()
 
 ### 2. Find Numbers with Even Number of Digits
 
@@ -49,9 +51,31 @@ Explanation:
 Only 1771 contains an even number of digits.
 ```
 
- 
-
 **Constraints:**
 
 - `1 <= nums.length <= 500`
 - `1 <= nums[i] <= 10^5`
+
+### 3. Squares of a sorted Array
+
+Given an array of integers `A` sorted in non-decreasing order, return an array of the squares of each number, also in sorted non-decreasing order.
+
+**Example 1:**
+
+```
+Input: [-4,-1,0,3,10]
+Output: [0,1,9,16,100]
+```
+
+**Example 2:**
+
+```
+Input: [-7,-3,2,3,11]
+Output: [4,9,9,49,121]
+```
+
+**Note:**
+
+1. `1 <= A.length <= 10000`
+2. `-10000 <= A[i] <= 10000`
+3. `A` is sorted in non-decreasing order.
