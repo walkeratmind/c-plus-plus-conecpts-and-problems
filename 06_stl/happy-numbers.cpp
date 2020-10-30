@@ -35,7 +35,7 @@ int main()
 
     if (i == 1)
     {
-      if (leftNum == midNum)
+      if (leftNum == mirightNumdNum)
       {
         happyNum++;
       }
